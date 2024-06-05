@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     '@ionic/core/css/display.css'
   ],
   supabase: {
-    redirect: false,
+    redirect: true,
     redirectOptions: {
       login: '/login',
       callback: '/confirm'
